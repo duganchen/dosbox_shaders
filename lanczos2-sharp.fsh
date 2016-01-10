@@ -21,8 +21,16 @@
 
 */
 
+// Window Sinc Param.
+// Possible values: 0.5 0.0 1.0 0.01
 const float LANCZOS2_WINDOW_SINC = 0.5;
+
+// Anti-ringing Strength.
+// Possible values: 0.8 0.0 1.0 0.1
 const float LANCZOS2_SINC = 1.0;
+
+// Sinc Param.
+// Possible values: 1.0 0.0 1.0 0.01
 const float LANCZOS2_AR_STRENGTH = 0.8;
 
 layout (std140) uniform shader_input
