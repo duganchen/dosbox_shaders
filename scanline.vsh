@@ -3,7 +3,7 @@
 layout(location = 0) in vec4 position;
 layout(location = 1) in vec2 texCoord;
 
-layout (std140) uniform shader_input
+layout (std140) uniform program_input
 {
 	vec2 video_size;
 	vec2 texture_size;

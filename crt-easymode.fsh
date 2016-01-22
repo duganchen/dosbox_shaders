@@ -59,7 +59,7 @@ uniform sampler2D tex;
 
 out vec4 color;
 
-layout (std140) uniform shader_input
+layout (std140) uniform program_input
 {
 	vec2 video_size;
 	vec2 texture_size;
