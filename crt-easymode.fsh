@@ -90,7 +90,7 @@ float curve_distance(float x, float sharp)
 
 mat4 get_color_matrix(sampler2D tex, vec2 co, vec2 dx)
 {
-	return mat4(TEX2D(co - dx), TEX2D(co), TEX2D(co + dx), TEX2D(co + 2.0 * dx));
+	return mat4(TEX2D(co - dx), TEX2D(co), TEX2D(co + dx),  TEX2D(co + 2.0 * dx));
 }
 
 vec3 filter_lanczos(vec4 coeffs, mat4 color_matrix)
