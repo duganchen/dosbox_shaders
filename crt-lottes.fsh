@@ -25,7 +25,7 @@ const float scaleInLinearGamma = 1;
 const float shadowMask = 1;
 const float brightboost = 1;
 
-layout (std140) uniform program_input
+layout (std140) uniform program
 {
 	vec2 video_size;
 	vec2 texture_size;

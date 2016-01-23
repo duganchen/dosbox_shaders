@@ -33,7 +33,7 @@ const float LANCZOS2_SINC = 1.0;
 // Possible values: 1.0 0.0 1.0 0.01
 const float LANCZOS2_AR_STRENGTH = 0.8;
 
-layout (std140) uniform program_input
+layout (std140) uniform program
 {
 	vec2 video_size;
 	vec2 texture_size;
