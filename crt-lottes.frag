@@ -186,7 +186,6 @@ vec3 Mask(vec2 pos)
 }
 
 
-// vec4 main_fragment (vec2 tex : TEXCOORD, uniform sampler2D s0 : TEXUNIT0, uniform input IN) : COLOR
 void main()
 {
 	vec2 pos = Warp(tex.xy * (IN.texture_size.xy / IN.video_size.xy)) * (IN.video_size.xy / IN.texture_size.xy);
