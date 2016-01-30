@@ -56,7 +56,7 @@ bool eq(float A, float B)
 
 float weighted_distance(float a, float b, float c, float d, float e, float f, float g, float h)
 {
-	return df(a, b) + df(a, c) + df(d, e) + df(d, f) + 4.0 * df(g,h);
+	return df(a, b) + df(a, c) + df(d, e) + df(d, f) + 4.0 * df(g, h);
 }
 
 
@@ -78,10 +78,10 @@ in vertex
 /*
 		xBR LVL1 works over the pixels below:
 
-				|B |C |
+			|B |C |
 		 |D |E |F |F4|
 		 |G |H |I |I4|
-				|H5|I5|
+			|H5|I5|
 
 		Consider E as the central pixel. xBR LVL1 needs only to look at 12 texture pixels.
 */
