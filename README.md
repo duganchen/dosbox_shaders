@@ -15,6 +15,7 @@ The shaders are:
 * [jinc2-sharp](https::w//github.com/libretro/common-shaders/blob/master/windowed/shaders/jinc2-sharp.cg)
 * [Jinc-Lanczos-3D.zip](http://ngemu.com/threads/links-and-guides-to-custom-shaders-for-petes-opengl2-plugin.76098/page-33#post-2431433)
 	* Jinc2-Sharper
+	* Jinc2-Sharper-3D
 	* Lanczos2-Sharper
 * [lanczos2-sharp](https://github.com/libretro/common-shaders/blob/master/windowed/shaders/lanczos2-sharp.cg)
 * [scanline](https://github.com/libretro/common-shaders/blob/master/scanline.cg)
