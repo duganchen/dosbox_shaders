@@ -18,6 +18,7 @@ The shaders are:
 	* Jinc2-Sharper-3D
 	* Jinc2-Sharpest-3D
 	* Lanczos2-Sharper
+	* Lanczos2-Sharper-3D
 * [lanczos2-sharp](https://github.com/libretro/common-shaders/blob/master/windowed/shaders/lanczos2-sharp.cg)
 * [scanline](https://github.com/libretro/common-shaders/blob/master/scanline.cg)
 * [xbr-lv1-noblend](https://github.com/libretro/common-shaders/blob/master/xbr/shaders/xbr-lv1-noblend.cg)
