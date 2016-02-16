@@ -9,6 +9,7 @@ The shaders are:
 * [5xBR\_Semi-Rounded](https://gitorious.org/bsnes/xml-shaders?p=bsnes:xml-shaders.git;a=blob;f=shaders/OpenGL/v1.0/5xBR+Semi-Rounded.shader;h=eaa1ea16ceeb355a9f0c785f21f14ba62c398257;hb=HEAD)
 * [5xBR\_Squared](https://gitorious.org/bsnes/xml-shaders?p=bsnes:xml-shaders.git;a=blob;f=shaders/OpenGL/v1.0/5xBR+Squared.shader;h=742713e45c053c2addbfa3cdef16f318a0759756;hb=HEAD)
 * [crt-easymode](https://github.com/libretro/common-shaders/blob/master/crt/shaders/crt-easymode.cg)
+* [CRT-Hyllian-3D](http://ngemu.com/threads/links-and-guides-to-custom-shaders-for-petes-opengl2-plugin.76098/page-33#post-2431761)
 * [crt-lottes](https://github.com/libretro/common-shaders/blob/master/crt/shaders/crt-lottes.cg)
 * [GTU](https://github.com/aliaspider/interpolation-shaders/blob/master/GTU.OpenGL.shader)
 * [jinc2](https://github.com/libretro/common-shaders/blob/master/windowed/shaders/jinc2.cg)
