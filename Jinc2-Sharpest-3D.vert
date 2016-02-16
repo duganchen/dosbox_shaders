@@ -10,11 +10,6 @@ layout (std140) uniform program
 	vec2 output_size;
 } IN;
 
-out out_vertex
-{
-	vec2 texCoord;
-} VAR;
-
 out vec2 texCoord;
 out vec2 OGL2Size;
 
