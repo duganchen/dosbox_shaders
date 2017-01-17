@@ -203,10 +203,10 @@ void main()
 	// Unmodified.
 	if (gl_FragCoord.x < iResolution.x * 0.333)
 	{
-		fragColor.rgb = Fetch(texCoord.xy + vec2(0.333,0.0), vec2(0.0,0.0));
+		fragColor.rgb = Fetch(texCoord.xy, vec2(0.0,0.0));
 	}
 	else {
-		vec2 pos = Warp(texCoord.xy + vec2(-0.333,0.0));
+		vec2 pos = Warp(texCoord.xy);
 		if( gl_FragCoord.x < iResolution.x * 0.666)
 		{
 			hardScan =- 12.0;
