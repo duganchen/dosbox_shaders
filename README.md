@@ -11,6 +11,7 @@ The shaders are:
 * [crt-easymode](https://github.com/libretro/common-shaders/blob/master/crt/shaders/crt-easymode.cg)
 * [CRT-Hyllian-3D](http://ngemu.com/threads/links-and-guides-to-custom-shaders-for-petes-opengl2-plugin.76098/page-33#post-2431761)
 * [crt-lottes](https://github.com/libretro/common-shaders/blob/master/crt/shaders/crt-lottes.cg)
+* [FixingPixelArt](https://www.shadertoy.com/view/XsjSzR)
 * [GTU](https://github.com/aliaspider/interpolation-shaders/blob/master/GTU.OpenGL.shader)
 * [jinc2](https://github.com/libretro/common-shaders/blob/master/windowed/shaders/jinc2.cg)
 * [jinc2-sharp](https::w//github.com/libretro/common-shaders/blob/master/windowed/shaders/jinc2-sharp.cg)

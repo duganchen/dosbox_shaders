@@ -50,7 +50,9 @@ float hardPix = -3.0;
 // Display warp.
 // 0.0 = none
 // 1.0/8.0 = extreme
-vec2 warp=vec2(1.0 / 32.0, 1.0 / 24.0); 
+
+// Disabling. Partly because I don't like it and partly because it's off center (for now).
+vec2 warp = vec2(0.0, 0.0);
 
 // Amount of shadow mask.
 float maskDark = 0.5;
@@ -200,24 +202,8 @@ float Bar(float pos, float bar)
 // Entry.
 void main()
 {
-	// Unmodified.
-	if (gl_FragCoord.x < iResolution.x * 0.333)
-	{
-		fragColor.rgb = Fetch(texCoord.xy, vec2(0.0,0.0));
-	}
-	else {
-		vec2 pos = Warp(texCoord.xy);
-		if( gl_FragCoord.x < iResolution.x * 0.666)
-		{
-			hardScan =- 12.0;
-			maskDark = maskLight = 1.0;
-			pos = Warp(texCoord);
-		}
-		fragColor.rgb = Tri(pos) * Mask(gl_FragCoord.xy);
-	}
+	vec2 pos = Warp(texCoord.xy);
+	fragColor.rgb = Tri(pos) * Mask(gl_FragCoord.xy);
 	fragColor.a = 1.0;
-	fragColor.rgb *= Bar(gl_FragCoord.x, iResolution.x * 0.333) * Bar(gl_FragCoord.x, iResolution.x * 0.666);
 	fragColor.rgb = ToSrgb(fragColor.rgb);
 }
-
-
