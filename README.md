@@ -3,6 +3,10 @@
 A collection of shaders for [Dugan's DosBox Fork](https://github.com/duganchen/dosbox/blob/master/ENHANCEMENTS.md).
 Each shader is licensed under the same terms as the one it was ported from.
 
+Clone it with:
+
+	git clone https://github.com/duganchen/dosbox_shaders.git ~/.dosbox/shaders
+
 The shaders are:
 
 * [5xBR\_Rounded](https://gitorious.org/bsnes/xml-shaders?p=bsnes:xml-shaders.git;a=blob;f=shaders/OpenGL/v1.0/5xBR+Rounded.shader;h=b3abe1b872ebc95f776726da7dec288a5766dff7;hb=HEAD)
