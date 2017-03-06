@@ -3,9 +3,15 @@
 A collection of shaders for [Dugan's DosBox Fork](https://github.com/duganchen/dosbox/blob/master/ENHANCEMENTS.md).
 Each shader is licensed under the same terms as the one it was ported from.
 
-Clone it with:
+Clone it into your DosBox directory.
+
+On Linux:
 
 	git clone https://github.com/duganchen/dosbox_shaders.git ~/.dosbox/shaders
+
+On OS X:
+
+	git clone https://github.com/duganchen/dosbox_shaders.git ~/Library/Preferences/shaders
 
 The shaders are:
 
